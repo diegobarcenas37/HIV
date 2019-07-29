@@ -1,31 +1,31 @@
 h1 {
-				color: navy;
-				text-align: center;
-				margin: 25px;
-			}
-			body {
-				margin:25px;
-			}
-			#yeah {
+        color: navy;
+        text-align: center;
+        margin: 25px;
+      }
+      body {
+        margin:25px;
+      }
+      #yeah {
 text-align: center;
 font-family: 'Catamaran', sans-serif;
 }
 #names {
-	margin: 50px;
-	font-family: 'Catamaran', sans-serif;
+  margin: 50px;
+  font-family: 'Catamaran', sans-serif;
 }
 
-h3 {	
+h3 {  
 background: rgb(43,67,221);
 font-family: 'Catamaran', sans-serif;
 }
 p {
-	font-family: 'Catamaran', sans-serif;
-	background: white;
-	text-align: center;
+  font-family: 'Catamaran', sans-serif;
+  background: white;
+  text-align: center;
 }
 .center {
-	  display: block;
+    display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -36,12 +36,12 @@ text-align: center;
 }
 
 #people{
-	background:rgb(255, 21, 0);
+  background:rgb(255, 21, 0);
 }
 
 body {
-	background:;
-	color: navy;
+  background:;
+  color: navy;
 }
 
 #sohcahtoa {
@@ -56,7 +56,7 @@ img{
   width: 200px;
   height: 150px;
   
-		}
+    }
 
 
 #help1 {
@@ -114,46 +114,46 @@ nav {
 
 }
 #funnybone {
-	overflow: auto;
-	border: solid 5px pink;
-	background:white;
+  overflow: auto;
+  border: solid 5px pink;
+  background:white;
 }
 #leslie {
-	overflow:auto;
-	border: solid 5px pink;
-	background: white;
+  overflow:auto;
+  border: solid 5px pink;
+  background: white;
  } 
  
  
  .leslie {
- 	margin:25px;
- 	padding: 25px;
+  margin:25px;
+  padding: 25px;
  }
 
 .funnybone {
-	margin:25px;
-	padding:25px;
+  margin:25px;
+  padding:25px;
 }
 
 
 
 .ire {
-	margin: 25px;
-	padding: 25px;
+  margin: 25px;
+  padding: 25px;
 }
 
 
 #leslieimage {
-	float: left;
-	margin:25px;
-	width:25px;
+  float: left;
+  margin:25px;
+  width:25px;
 
 
 }
 #funnyboneimage {
-	float: left;
-	margin:25px;
-	width: 25px
+  float: left;
+  margin:25px;
+  width: 25px
 }
 
 
