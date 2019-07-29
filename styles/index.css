@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>
-		Welcome </title>
-		<link rel="stylesheet" type="text/css"
-	  		  href="./styles/awareness.css">
-<div id="hole-page">
-		<nav>
-			<div id="help1">
-			<a href="index.html">Home</a>
-		</div>
-		<div id="help2">
-	   		<a href="whatishiv.html">What is HIV?</a>
-	   	</div>
-	   	<div id="help3">
-	   		<a href="awareness.html">Awareness</a>
-</div>
-<div id="help4">
-	   		<a href="about-us.html">About us</a>
-	   	</div>
-	   	</nav>
-			<link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
-		<style type="text/css">
-			h1 {
+h1 {
 				color: navy;
 				text-align: center;
 				margin: 25px;
@@ -191,37 +167,6 @@ background: white;
 link {
 
 }
-		</style>
-
-	
-</head>
-<body>
-	<div id="yeah">
-		<div id="people">
-	<h1>HIV Awareness</h1>
-	</div>
-	<div id="sohcahtoa">
-	<p class="funnybone">Welcome to our group's website!.</p>
-
-</div>
-	<h1>Welcome!</h1>
-</div>
-<div id="names">
-<h3>text here </h3>
-<div id="funnybone">
-	<img id="funnyboneimage" src="images/Kamiyah.jpg" style="width: 250px; height: 250px">
-<p class=".funnybone">text here</p>
-</div>
-
-	<h3>hi</h3>
-	<div id="leslie">
-	<img id="leslieimage" src="./images/jose.jpg" style="width: 250px;height:250px">
-	<p class="leslie">hi</p>
-</div>
-		
-		</div>
-		</div>
-	</div>
-
-</body>
-</html>
+h1 {
+text-shadow: 2px 2px white;
+}

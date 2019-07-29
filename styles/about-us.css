@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>
-		Welcome </title>
-		<link rel="stylesheet" type="text/css"
-	  		  href="./styles/awareness.css">
-<div id="hole-page">
-		<nav>
-			<div id="help1">
-			<a href="index.html">Home</a>
-		</div>
-		<div id="help2">
-	   		<a href="whatishiv.html">What is HIV?</a>
-	   	</div>
-	   	<div id="help3">
-	   		<a href="awareness.html">Awareness</a>
-</div>
-<div id="help4">
-	   		<a href="about-us.html">About us</a>
-	   	</div>
-	   	</nav>
-			<link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
-		<style type="text/css">
-			h1 {
+h1 {
 				color: navy;
 				text-align: center;
 				margin: 25px;
@@ -73,13 +49,16 @@ body {
 }
 
 img{
-  border-radius: 100px;
-  background-position: center;
+  border-radius: 50px;
+  background-position: left top;
   background-repeat: repeat;
   padding: 20px; 
   width: 200px;
   height: 150px;
-  
+  box-shadow: 1px 1px 1px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+			-webkit-box-shadow: 10px 10px 5px #ccc;
+			-khtml-box-shadow: 10px 10px 5px #ccc;  
 		}
 
 
@@ -135,7 +114,12 @@ nav {
   background-color: navy;
   color: white;
     
+}
 
+#grenade {
+	overflow: auto;
+	border: solid 5px pink;
+	background: white;
 }
 #funnybone {
 	overflow: auto;
@@ -148,7 +132,11 @@ nav {
 	background: white;
  } 
  
- 
+ #ire {
+ 	overflow: auto;
+ 	border: solid 5px pink;	
+ 	background: white;
+ }
  .leslie {
  	margin:25px;
  	padding: 25px;
@@ -159,13 +147,21 @@ nav {
 	padding:25px;
 }
 
+.grenade {
+	margin:25px;
+	padding: 25px;
 
 
+}
 .ire {
 	margin: 25px;
 	padding: 25px;
 }
-
+#grenadeimage {
+	float: left;
+	margin: 25px;
+	width: 25px;
+}
 
 #leslieimage {
 	float: left;
@@ -179,8 +175,11 @@ nav {
 	margin:25px;
 	width: 25px
 }
-
-
+#ireimage {
+	float: left;
+	margin: 25px;
+	width: 25px;
+}
 
 #hole-page {
 overflow: auto;
@@ -188,40 +187,12 @@ border: solid red 30px;
 background: white;
 }
 
-link {
-
+h1 {
+text-shadow: 2px 2px white;
 }
-		</style>
-
-	
-</head>
-<body>
-	<div id="yeah">
-		<div id="people">
-	<h1>HIV Awareness</h1>
-	</div>
-	<div id="sohcahtoa">
-	<p class="funnybone">Welcome to our group's website!.</p>
-
-</div>
-	<h1>Welcome!</h1>
-</div>
-<div id="names">
-<h3>text here </h3>
-<div id="funnybone">
-	<img id="funnyboneimage" src="images/Kamiyah.jpg" style="width: 250px; height: 250px">
-<p class=".funnybone">text here</p>
-</div>
-
-	<h3>hi</h3>
-	<div id="leslie">
-	<img id="leslieimage" src="./images/jose.jpg" style="width: 250px;height:250px">
-	<p class="leslie">hi</p>
-</div>
-		
-		</div>
-		</div>
-	</div>
-
-</body>
-</html>
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}

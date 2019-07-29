@@ -1,0 +1,172 @@
+h1 {
+        color: navy;
+        text-align: center;
+        margin: 25px;
+      }
+      body {
+        margin:25px;
+      }
+      #yeah {
+text-align: center;
+font-family: 'Catamaran', sans-serif;
+}
+#names {
+  margin: 50px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+h3 {  
+background: rgb(43,67,221);
+font-family: 'Catamaran', sans-serif;
+}
+p {
+  font-family: 'Catamaran', sans-serif;
+  background: white;
+  text-align: center;
+}
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+#grenade {
+text-align: center;
+}
+
+#people{
+  background:rgb(255, 21, 0);
+}
+
+body {
+  background:;
+  color: navy;
+}
+
+#sohcahtoa {
+
+}
+
+img{
+  border-radius: 100px;
+  background-position: center;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+  
+    }
+
+
+#help1 {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:pink;
+  margin-left:auto; 
+  margin-right:auto;
+  text-align: center;
+}
+#help2 {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:red;
+    margin-left:auto; 
+  margin-right:auto;
+   text-align: center;
+}
+#help3 {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:pink;
+    margin-left:auto; 
+  margin-right:auto;
+   text-align: center;
+}
+#help4 {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:red;
+    margin-left:auto; 
+  margin-right:auto;
+   text-align: center;
+
+}
+
+nav {
+     background-color: #333;
+  overflow: hidden;
+  float: middle;
+  color: pink;
+  text-align: center;
+  padding: 4px 4px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: pink;
+  color: black;
+  background-color: navy;
+  color: white;
+    
+
+}
+#funnybone {
+  overflow: auto;
+  border: solid 5px pink;
+  background:white;
+}
+#leslie {
+  overflow:auto;
+  border: solid 5px pink;
+  background: white;
+ } 
+ 
+ 
+ .leslie {
+  margin:25px;
+  padding: 25px;
+ }
+
+.funnybone {
+  margin:25px;
+  padding:25px;
+}
+
+
+
+.ire {
+  margin: 25px;
+  padding: 25px;
+}
+
+
+#leslieimage {
+  float: left;
+  margin:25px;
+  width:25px;
+
+
+}
+#funnyboneimage {
+  float: left;
+  margin:25px;
+  width: 25px
+}
+
+
+
+#hole-page {
+overflow: auto;
+border: solid red 30px;
+background: white;
+}
+
+link {
+
+}
+h1 {
+text-shadow: 2px 2px white;
+}
