@@ -289,6 +289,9 @@ and (min-width: 1224px){
 margin: 20px;
 text-align: right;
 }
+a:hover {
+  background-color: navyblue;
+  color: white;
 
 
 
