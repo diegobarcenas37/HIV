@@ -49,13 +49,16 @@ body {
 }
 
 img{
-  border-radius: 100px;
-  background-position: center;
+  border-radius: 50px;
+  background-position: left top;
   background-repeat: repeat;
   padding: 20px; 
   width: 200px;
   height: 150px;
-  
+  box-shadow: 1px 1px 1px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;  
     }
 
 
@@ -111,7 +114,12 @@ nav {
   background-color: navy;
   color: white;
     
+}
 
+#grenade {
+  overflow: auto;
+  border: solid 5px pink;
+  background: white;
 }
 #funnybone {
   overflow: auto;
@@ -124,7 +132,11 @@ nav {
   background: white;
  } 
  
- 
+ #ire {
+  overflow: auto;
+  border: solid 5px pink; 
+  background: white;
+ }
  .leslie {
   margin:25px;
   padding: 25px;
@@ -135,13 +147,21 @@ nav {
   padding:25px;
 }
 
+.grenade {
+  margin:25px;
+  padding: 25px;
 
 
+}
 .ire {
   margin: 25px;
   padding: 25px;
 }
-
+#grenadeimage {
+  float: left;
+  margin: 25px;
+  width: 25px;
+}
 
 #leslieimage {
   float: left;
@@ -155,8 +175,11 @@ nav {
   margin:25px;
   width: 25px
 }
-
-
+#ireimage {
+  float: left;
+  margin: 25px;
+  width: 25px;
+}
 
 #hole-page {
 overflow: auto;
@@ -164,9 +187,87 @@ border: solid red 30px;
 background: white;
 }
 
-link {
-
-}
 h1 {
 text-shadow: 2px 2px white;
 }
+
+.brandon {
+  float: center;
+  margin: left;
+  margin: right;
+}
+@media only screen and 
+(max-width:600px) {
+  #img-float {
+    float: left;
+    margin: 30px;
+    width:300px;
+  }
+  nav {
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 40px;
+  }
+
+#div-float {
+overflow: auto;
+
+ overflow: hidden;
+  float: middle;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+}
+
+
+/*Mobile rule portrait mode*/
+@media only screen
+and (max-width: 320px) {
+
+body {
+margin: 30px;
+ 
+}
+nav {
+  overflow: hidden;
+  float: middle;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 20px;
+ 
+}
+
+}
+/*Mobile in lanscape mode*/
+@media only screen
+and (min-width: 321px)
+and (max-width: 480px) {
+
+}
+/*Tablets*/
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px){
+nav {
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: 30px;
+}
+}
+/*Desktops and latop computers*/
+@media only screen
+and (min-width: 1224px){
+  nav {
+ text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+}
+
+
