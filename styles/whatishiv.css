@@ -191,6 +191,7 @@ h1 {
 text-shadow: 2px 2px white;
 }
 
+
 .brandon {
   float: center;
   margin: left;
@@ -283,5 +284,11 @@ and (min-width: 1224px){
   padding: 14px 16px;
   text-decoration: none;
 }
+
+.hivinfo {
+margin: 20px;
+text-align: right;
+}
+
 
 
