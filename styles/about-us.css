@@ -190,16 +190,84 @@ background: white;
 h1 {
 text-shadow: 2px 2px white;
 }
-@media screen and (max-width: 600px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
 
 .brandon {
   float: center;
   margin: left;
   margin: right;
 }
+@media only screen and 
+(max-width:600px) {
+  #img-float {
+    float: left;
+    margin: 30px;
+    width:300px;
+  }
+  nav {
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 40px;
+  }
+
+#div-float {
+overflow: auto;
+
+ overflow: hidden;
+  float: middle;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+}
+
+
+/*Mobile rule portrait mode*/
+@media only screen
+and (max-width: 320px) {
+
+body {
+margin: 30px;
+ 
+}
+nav {
+  overflow: hidden;
+  float: middle;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 20px;
+ 
+}
+
+}
+/*Mobile in lanscape mode*/
+@media only screen
+and (min-width: 321px)
+and (max-width: 480px) {
+
+}
+/*Tablets*/
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px){
+nav {
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: 30px;
+}
+}
+/*Desktops and latop computers*/
+@media only screen
+and (min-width: 1224px){
+  nav {
+ text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+}
+
 
