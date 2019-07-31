@@ -18,6 +18,7 @@ font-family: 'Catamaran', sans-serif;
 h3 {	
 background: rgb(43,67,221);
 font-family: 'Catamaran', sans-serif;
+color: cyan;
 }
 p {
 	font-family: 'Catamaran', sans-serif;
@@ -205,7 +206,7 @@ text-shadow: 2px 2px white;
   }
   nav {
   text-align: center;
-  padding: 10px 10px;
+  padding: 5px 5px;
   text-decoration: none;
   font-size: 40px;
   }
@@ -226,21 +227,25 @@ overflow: auto;
 /*Mobile rule portrait mode*/
 @media only screen
 and (max-width: 320px) {
-
+nav {
+     background-color: #333;
+  overflow: hidden;
+  float: middle;
+  color: pink;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 50px;
+  background-color: pink;
+  color: black;
+  background-color: navy;
+  color: white;
+    
+}
 body {
 margin: 30px;
  
 }
-nav {
-  overflow: hidden;
-  float: middle;
-  text-align: center;
-  padding: 5px 5px;
-  text-decoration: none;
-  font-size: 20px;
- 
-}
-
 }
 /*Mobile in lanscape mode*/
 @media only screen
@@ -253,11 +258,21 @@ and (max-width: 480px) {
 and (min-width: 768px)
 and (max-width: 1024px){
 nav {
+     background-color: #333;
+  overflow: hidden;
+  float: middle;
+  color: pink;
   text-align: center;
-  padding: 30px 30px;
+  padding: 4px 4px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 50px;
+  background-color: pink;
+  color: black;
+  background-color: navy;
+  color: white;
+    
 }
+
 }
 /*Desktops and latop computers*/
 @media only screen
@@ -267,6 +282,40 @@ and (min-width: 1224px){
   padding: 20px 20px;
   text-decoration: none;
   font-size: 20px;
+}
+}
+
+a:hover {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  border: white 5px solid;
+}
+
+  a {
+    background: navy;
+ text-decoration: none;
+    color: white;
+    border: white 1px solid;
+  }
+
+  
+@media only screen
+and (min-width: 600px) {
+nav {
+     background-color: #333;
+  overflow: hidden;
+  float: middle;
+  color: pink;
+  text-align: center;
+  padding: 4px 4px;
+  text-decoration: none;
+  font-size: 40px;
+  background-color: pink;
+  color: black;
+  background-color: navy;
+  color: white;
+    
 }
 }
 
