@@ -290,10 +290,18 @@ margin: 20px;
 text-align: right;
 }
 a:hover {
-  background-color: navyblue;
+  background-color: purple;
   color: white;
-    padding: 20px;
+  padding: 20px;
   border: white 5px solid;
+}
+
+  a {
+    background: navy;
+ text-decoration: none;
+    color: white;
+    border: white 5px solid;
+  }
 
 
 
