@@ -9,7 +9,7 @@ nav {
   text-align: center;
   padding: 5px 5px;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 100px;
   background-color: pink;
   color: black;
   background-color: navy;
@@ -19,6 +19,10 @@ nav {
 body {
 margin: 30px;
  
+}
+.infographic {
+  width: 300
+  height 500
 }
 }
 /*Mobile in lanscape mode*/
