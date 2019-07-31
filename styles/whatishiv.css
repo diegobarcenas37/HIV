@@ -18,6 +18,9 @@ font-family: 'Catamaran', sans-serif;
 h3 {  
 background: rgb(43,67,221);
 font-family: 'Catamaran', sans-serif;
+color: cyan;
+margin-left: auto;
+margin-right: auto;
 }
 p {
   font-family: 'Catamaran', sans-serif;
